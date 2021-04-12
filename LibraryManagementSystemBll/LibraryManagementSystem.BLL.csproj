@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryManagementSystemCommon\LibraryManagementSystemCommon.csproj" />
+    <ProjectReference Include="..\LibraryManagementSystemDal\LibraryManagementSystem.DAL.csproj" />
+    <ProjectReference Include="..\LibraryManagementSystemDto\LibraryManagementSystem.DTO.csproj" />
+    <ProjectReference Include="..\LibraryManagementSystemIBll\LibraryManagementSystem.IBLL.csproj" />
+    <ProjectReference Include="..\LibraryManagementSystemIDal\LibraryManagementSystem.IDAL.csproj" />
+    <ProjectReference Include="..\LibraryManagementSystemModel\LibraryManagementSystem.MODEL.csproj" />
+  </ItemGroup>
+
+</Project>
